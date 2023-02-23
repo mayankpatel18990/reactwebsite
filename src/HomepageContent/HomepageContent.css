@@ -1,0 +1,74 @@
+.package-card {
+    position: relative;
+    flex: 0 0 30%;
+    margin: 50px 1.66% 0;
+}
+.package-data {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    color: #fff;
+    font-size: 29px;
+    background-color: #040a0440;
+    text-shadow: 4px 0px 8px black;
+}
+.package-card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.66%;
+}
+.our-history-container>div {
+    flex: 0 0 50%;
+}
+.our-history-container {
+    display: flex;
+    margin: 80px 0;
+    align-items: center;
+}
+.amazing-things p {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.our-history button {
+    font-size: 16px;
+    background: transparent;
+    padding: 10px 15px;
+}
+.view-image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.66%;
+}
+.view-image>div {
+    flex: 0 0 30%;
+    margin: 20px 1.66%;
+}
+.package-img img {
+    max-width: 100%;
+}
+.package-card:hover {
+    transform: scale(1.2);
+    -webkit-transition: transform .50s ease-in-out;
+    -moz-transition: transform 1.05s ease-in-out;
+    -ms-transition: transform 1.05s ease-in-out;
+}
+.who_we_are{
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width: 767px){
+    .package-data {
+        text-align: center;
+    }
+    .package-card-holder {
+        flex-direction: column;
+    }
+    .our-history-container {
+        flex-direction: column;
+    }
+}

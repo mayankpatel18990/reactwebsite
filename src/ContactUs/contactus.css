@@ -1,0 +1,60 @@
+.dataform{
+    margin-bottom: 50px;
+}
+.dataform button {
+    background-color: #70bb74;
+    color: #fff;
+    border: 0;
+    padding: 11px 34px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 25px;
+    font-size: 18px;
+}
+form.dataform input {
+    height: 33px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #afaeae;
+    padding: 10px;
+}
+form.dataform input::placeholder {
+    font-size: 16px;
+}
+.success_message {
+    color: green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -1px black;
+    margin: 41px 11px;
+    font-size: 22px;
+}
+form.dataform label {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+form.dataform {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px -1px black;
+    padding: 25px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+@media only screen and (max-width: 600px){
+    .dataform label {
+        display: block;
+    }
+    .dataform button {
+        display: block;
+        margin-top: 10px;
+    }
+    .dataform input {
+        margin-bottom: 10px;
+    }
+}

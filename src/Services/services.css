@@ -1,0 +1,15 @@
+.container.service-content {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.service_header {
+    font-size: 24px;
+}
+.service-content a {
+    background-color: #70bb74;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+.linking{list-style-type: none;}

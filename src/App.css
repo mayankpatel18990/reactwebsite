@@ -1,0 +1,32 @@
+*{
+box-sizing: border-box;
+}
+.header-banner-section {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_img img {
+    width: 100%;
+}
+.header-banner {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004d;
+}
+img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 767px){
+    .header-banner-section {
+        overflow: visible;
+    }
+    .header-banner {
+        z-index: 99;
+    }
+}
